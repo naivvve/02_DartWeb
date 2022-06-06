@@ -1,5 +1,5 @@
 body {
-    background-color: #F8F8F8;
+    background-color: darkgrey;
     font-family: 'Roboto', 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: normal;
@@ -10,5 +10,5 @@ body {
 h1,
 p,
 li {
-    color: #333;
+    color: blue;
 }

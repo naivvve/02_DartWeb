@@ -2,15 +2,15 @@
 
 import 'dart:html';
 
-final InputElement toDoInput = querySelector('#to-do-input') as InputElement;
-final UListElement toDoList = querySelector('#to-do-list') as UListElement;
+final InputElement MenuInput1 = querySelector('#Menu-input1') as InputElement;
+final UListElement MenuList1 = querySelector('#Menu-list1') as UListElement;
 
 void main() {
-  toDoInput.onChange.listen(addToDoItem);
+  MenuInput1.onChange.listen(addMenuItem);
 }
 
-void addToDoItem(Event e) {
-  final newToDo = LIElement()..text = toDoInput.value;
-  toDoInput.value = '';
-  toDoList.children.add(newToDo);
+void addMenuItem(Event e) {
+  final newList1 = LIElement()..text = MenuInput1.value;
+  MenuInput1.value = '';
+  MenuList1.children.add(newList1);
 }

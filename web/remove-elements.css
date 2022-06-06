@@ -2,11 +2,11 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: WhiteSmoke;
     margin: 15px;
-    color: black;
+    color: honeydew;
 }
 
 h2 {
-    color: black;
+    color:honeydew;
 }
 
 #to-do-input {
