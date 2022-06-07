@@ -1,5 +1,5 @@
 body {
-    background-color: rosybrown;
+    background-color: lightgoldenrodyellow;
     font-family: 'Roboto', 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: normal;
@@ -30,13 +30,13 @@ textarea {
 }
 
 .result {
-    background-color: Ivory;
+    background-color: lightcyan;
     padding: 5px 5px 5px 5px;
     border: 1px solid black;
 }
 
 #mapAsJson {
-    background-color: Ivory;
+    background-color: lightcyan;
     padding: 5px 5px 5px 5px;
     margin-top: 15px;
     border: 1px solid black;
